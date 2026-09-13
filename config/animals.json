@@ -1,0 +1,62 @@
+{
+  "rarities": {
+    "common": {
+      "dropRate": 0.50,
+      "basePower": 10,
+      "color": "⬜",
+      "label": "Common"
+    },
+    "rare": {
+      "dropRate": 0.30,
+      "basePower": 25,
+      "color": "🟦",
+      "label": "Rare"
+    },
+    "epic": {
+      "dropRate": 0.15,
+      "basePower": 60,
+      "color": "🟪",
+      "label": "Epic"
+    },
+    "legendary": {
+      "dropRate": 0.04,
+      "basePower": 150,
+      "color": "🟨",
+      "label": "Legendary"
+    },
+    "mythic": {
+      "dropRate": 0.01,
+      "basePower": 400,
+      "color": "🟥",
+      "label": "Mythic"
+    }
+  },
+  "list": [
+    { "id": "cat",         "name": "Cat",            "emoji": "🐱", "rarity": "common" },
+    { "id": "dog",         "name": "Dog",            "emoji": "🐶", "rarity": "common" },
+    { "id": "rabbit",      "name": "Rabbit",         "emoji": "🐰", "rarity": "common" },
+    { "id": "hamster",     "name": "Hamster",        "emoji": "🐹", "rarity": "common" },
+    { "id": "bird",        "name": "Bird",           "emoji": "🐦", "rarity": "common" },
+    { "id": "fish",        "name": "Fish",           "emoji": "🐟", "rarity": "common" },
+    { "id": "turtle",      "name": "Turtle",         "emoji": "🐢", "rarity": "common" },
+    { "id": "fox",         "name": "Fox",            "emoji": "🦊", "rarity": "rare" },
+    { "id": "wolf",        "name": "Wolf",           "emoji": "🐺", "rarity": "rare" },
+    { "id": "bear",        "name": "Bear",           "emoji": "🐻", "rarity": "rare" },
+    { "id": "panda",       "name": "Panda",          "emoji": "🐼", "rarity": "rare" },
+    { "id": "penguin",     "name": "Penguin",        "emoji": "🐧", "rarity": "rare" },
+    { "id": "owl",         "name": "Owl",            "emoji": "🦉", "rarity": "rare" },
+    { "id": "lion",        "name": "Lion",           "emoji": "🦁", "rarity": "epic" },
+    { "id": "tiger",       "name": "Tiger",          "emoji": "🐯", "rarity": "epic" },
+    { "id": "unicorn",     "name": "Unicorn",        "emoji": "🦄", "rarity": "epic" },
+    { "id": "elephant",    "name": "Elephant",       "emoji": "🐘", "rarity": "epic" },
+    { "id": "shark",       "name": "Shark",          "emoji": "🦈", "rarity": "epic" },
+    { "id": "phoenix",     "name": "Phoenix",        "emoji": "🔥", "rarity": "legendary" },
+    { "id": "kraken",      "name": "Kraken",         "emoji": "🦑", "rarity": "legendary" },
+    { "id": "griffin",     "name": "Griffin",        "emoji": "🦅", "rarity": "legendary" },
+    { "id": "dragon",      "name": "Golden Dragon",  "emoji": "🐉", "rarity": "mythic" },
+    { "id": "celestial",   "name": "Celestial Wolf", "emoji": "🌟", "rarity": "mythic" }
+  ],
+  "huntCooldownMs": 30000,
+  "huntBaseRewardCoins": 20,
+  "levelUpBaseCost": 100
+}

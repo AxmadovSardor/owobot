@@ -1,0 +1,58 @@
+{
+  "flame_sword": {
+    "name": "Flame Sword",
+    "emoji": "🗡️",
+    "type": "flat_atk",
+    "value": 100,
+    "cost": 500,
+    "description": "A blazing sword that adds raw attack power."
+  },
+  "frost_spear": {
+    "name": "Frost Spear",
+    "emoji": "🔱",
+    "type": "flat_atk",
+    "value": 180,
+    "cost": 900,
+    "description": "A spear forged from eternal ice."
+  },
+  "ring_of_power": {
+    "name": "Ring of Power",
+    "emoji": "💍",
+    "type": "multiplier",
+    "value": 0.20,
+    "cost": 1200,
+    "description": "A mystical ring that boosts all stats by 20%."
+  },
+  "ancient_tome": {
+    "name": "Ancient Tome",
+    "emoji": "📖",
+    "type": "multiplier",
+    "value": 0.35,
+    "cost": 2500,
+    "description": "A forbidden book that amplifies power by 35%."
+  },
+  "thunder_gauntlet": {
+    "name": "Thunder Gauntlet",
+    "emoji": "🥊",
+    "type": "flat_atk",
+    "value": 250,
+    "cost": 1800,
+    "description": "Gauntlets crackling with lightning energy."
+  },
+  "void_blade": {
+    "name": "Void Blade",
+    "emoji": "⚔️",
+    "type": "flat_atk",
+    "value": 500,
+    "cost": 4000,
+    "description": "A blade forged from the void. Immensely powerful."
+  },
+  "celestial_orb": {
+    "name": "Celestial Orb",
+    "emoji": "🔮",
+    "type": "multiplier",
+    "value": 0.60,
+    "cost": 6000,
+    "description": "A legendary orb that multiplies team power by 60%."
+  }
+}

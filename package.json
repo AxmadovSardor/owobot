@@ -1,0 +1,25 @@
+{
+  "name": "owo-bot",
+  "version": "1.0.0",
+  "description": "OwO-style Telegram game bot with animals, weapons & battles",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js"
+  },
+  "keywords": [
+    "telegram",
+    "bot",
+    "owo",
+    "telegraf",
+    "mongodb"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "mongoose": "^9.10.0",
+    "telegraf": "^4.16.3"
+  }
+}
