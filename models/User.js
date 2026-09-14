@@ -46,6 +46,43 @@ const UserSchema = new mongoose.Schema(
       type: Date,
       default: null,
     },
+    // Gems from lootboxes — empower hunts
+    diamondGems: {
+      type: Number,
+      default: 0,
+      min: 0,
+    },
+    heartGems: {
+      type: Number,
+      default: 0,
+      min: 0,
+    },
+    coinGems: {
+      type: Number,
+      default: 0,
+      min: 0,
+    },
+    // Lootboxes waiting to be opened (stored in inventory, but count here too)
+    lootboxes: {
+      type: Number,
+      default: 0,
+      min: 0,
+    },
+    // Daily limit tracking
+    dailyLootboxes: {
+      type: Number,
+      default: 0,
+      min: 0,
+    },
+    dailyWeaponCrafts: {
+      type: Number,
+      default: 0,
+      min: 0,
+    },
+    lastDailyReset: {
+      type: Date,
+      default: null,
+    },
     // Active team: up to 3 animal ObjectIds (references UserAnimal)
     team: {
       type: [mongoose.Schema.Types.ObjectId],
